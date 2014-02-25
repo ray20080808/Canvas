@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img0030" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:visibility="gone"
+        android:text="titleBar" />
+    
+    <com.pobear.widget.AppTitle
+        android:id="@id/appTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="标题栏" />
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:lines="3"
+            android:singleLine="false"
+            android:text="北京阿萨德请问北京阿萨德请问北京阿萨阿萨德请问北京阿萨德请问北京阿萨德请德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问北京阿萨德请问" />
+    </LinearLayout>
+
+</FrameLayout>
